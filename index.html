@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="FizzBuzz - CSCI E-32 assignment 0">
+    <meta name="author" content="Joe Bockskopf">
 
-    <title>Blank</title>
+    <title>FizzBuzz</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fizzbuzz.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -24,10 +25,15 @@
 <body>
 
 <div class="container">
-
-    <h1>Hello World!</h1>
-    <p class="lead">This is something!</p>
-
+  <h1>FizzBuzz</h1>
+	<label for="limitInput">Print the numbers from 1 to: </label>
+	<input type="text" id="limitInput" placeholder="Type a number">
+	<button id="goBtn">Go</button><br/>
+	<div class="tableDiv">
+		<table id="resultsTable">
+			<tbody id="resultsTableBody"></tbody>
+		</table>
+	</div>
 </div><!-- /.container -->
 
 
@@ -36,5 +42,6 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/fizzbuzz.js"></script>
 </body>
 </html>

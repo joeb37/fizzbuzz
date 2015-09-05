@@ -1,0 +1,13 @@
+body {
+  background-color: #fff4f4;
+}
+.tableDiv {
+  padding: 10px;
+}
+td {
+  color: #000080;
+}
+input {
+  margin-left: 10px;
+  padding-left: 3px;
+}
